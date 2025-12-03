@@ -4,7 +4,7 @@ Intended to run locally, in your IDE of choice.
 
 We provide the saved models in the `./models` directory so that there would be no need to retrain the models.
 
-The <a href="https://drive.google.com/drive/folders/1zpvh664rCQgniZHCO7pZlFxOlheQJdqt?usp=sharing">datasets</a> (`test.csv`, `train.csv`) must be placed in the data directory, since GitHub blocks files larger than 100 MiB (see https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
+The <a href="https://drive.google.com/drive/folders/1zpvh664rCQgniZHCO7pZlFxOlheQJdqt?usp=sharing">datasets</a> (`test.csv`, `train.csv`) must be placed in the data directory, since GitHub blocks files larger than 100 MiB (<a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github">see this</a>).
 
 ![Data Directory](images/data_directory.png)
 
