@@ -1,0 +1,11 @@
+{
+    "hidden_size": 4096,
+    "lr": 0.005,
+    "weight_decay": 0.05,
+    "batch_size": 512,
+    "init_type": "xavier",
+    "dropout": 0.5,
+    "noise_std": 0.6,
+    "num_epochs": 125,
+    "warmup_epochs": 12
+}
