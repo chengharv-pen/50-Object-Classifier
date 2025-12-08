@@ -275,7 +275,7 @@ class Utils:
         model = ObjectClassifier(hidden_size=params["hidden_size"], output_size=50, dropout=params["dropout"]).to(device)
         model.initialize_weights(params["init_type"])
 
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.CrossEntropyLoss(label_smoothing=0.15)
         optimizer = optim.AdamW(model.parameters(), lr=params["lr"], weight_decay=params["weight_decay"])
 
         # --- TESTING SCHEDULER WARMUP --- #
@@ -327,7 +327,7 @@ class Utils:
                 # --- ATTEMPTING TO FIX INSTABILITY --- #
                 # I want to stop the optimizer from taking an update that is too large to recover from.
                 if grad_clip:
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=10.0)
 
                 optimizer.step()
 
