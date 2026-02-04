@@ -1,5 +1,7 @@
 # Team-26
 
+The report associated to this project will be [here](https://github.com/chengharv-pen/50-Object-Classifier/blob/main/50-Object%20Classifier%20Report.pdf).
+
 Intended to run locally, in your IDE of choice.
 
 We provide the saved models in the `./models` directory so that there would be no need to retrain the models.
