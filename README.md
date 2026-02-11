@@ -1,4 +1,4 @@
-# Team-26
+# 50 Object Classifier
 
 The report associated to this project will be [here](https://github.com/chengharv-pen/50-Object-Classifier/blob/main/50-Object%20Classifier%20Report.pdf).
 
@@ -42,7 +42,7 @@ tqdm
 
 ### Root Directory
 
-`COMP432 Report.pdf`
+`50-Object Classifier Report.pdf`
 
 - The project report
 
